@@ -15,3 +15,9 @@ variable "zone" {
   type        = string
   nullable    = false
 }
+
+variable "name" {
+  description = "Name of the subnet"
+  type        = string
+  nullable    = false
+}
