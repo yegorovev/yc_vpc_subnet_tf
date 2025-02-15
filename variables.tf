@@ -21,3 +21,10 @@ variable "name" {
   type        = string
   nullable    = false
 }
+
+variable "route_table_id" {
+  description = "The ID of the route table to assign to this subnet"
+  type        = string
+  nullable    = true
+  default     = null
+}
